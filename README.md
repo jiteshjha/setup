@@ -57,9 +57,9 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
     $ git config --global user.email "youremail@domain.com"
 
 ## Synaptic Package Manager
-   $ sudo apt-get install synaptic
+    $ sudo apt-get install synaptic
 
 ## Deluge
-   $ sudo apt-get install deluge
+    $ sudo apt-get install deluge
    
    
