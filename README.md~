@@ -61,12 +61,5 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
 
 ## Deluge
     $ sudo apt-get install deluge
-
-## Java 8
-    $ sudo add-apt-repository ppa:webupd8team/java
-    $ sudo apt-get update
-    $ sudo apt-get install oracle-java8-installer
-    $ java -version
-    $ sudo apt-get install oracle-java8-set-default
    
    
