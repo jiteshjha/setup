@@ -1,7 +1,7 @@
 # setup
  :relieved: Setting up development environment on Debian based distros 
  
- `Tested on Ubuntu 14.01 LTS and Mint 17.`
+ `Tested on Ubuntu 15.04 LTS.`
  
  
 ## System Update
@@ -10,6 +10,19 @@
     $ sudo apt-get update && sudo apt-get upgrade
 
 ---
+
+## WiFi Connection Error
+
+    $ sudo service network-manager stop
+    $ sudo gedit /etc/modprobe.d/iwlwifi.conf
+
+Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
+
+    $ sudo rmmod iwlmvm iwlwifi 
+    $ sudo modprobe iwlmvm iwlwifi 
+    $ sudo service network-manager restart
+
+
 
 ## Text Editors
 
@@ -43,3 +56,10 @@
     $ git config --global user.name "Your Name"
     $ git config --global user.email "youremail@domain.com"
 
+## Synaptic Package Manager
+   $ sudo apt-get install synaptic
+
+## Deluge
+   $ sudo apt-get install deluge
+   
+   
