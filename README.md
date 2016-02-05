@@ -1,2 +1,2 @@
 # setup
-:fire: Setting up development environment on Debian based distros 
+ :relieved: Setting up development environment on Debian based distros 
