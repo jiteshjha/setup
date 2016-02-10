@@ -69,4 +69,5 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
     $ java -version
     $ sudo apt-get install oracle-java8-set-default
    
-   
+## Unrar
+    $ sudo apt-get install unrar
