@@ -85,3 +85,7 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
 
 ## flask
     $ sudo pip install flask
+    
+## Oracle SQL
+    User : SYSTEM
+    Pass : Password
