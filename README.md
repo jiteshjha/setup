@@ -89,3 +89,15 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
 ## Oracle SQL
     User : SYSTEM
     Pass : Password
+
+## Public Lab's plots2 installation
+- Fork the repo on Github, and on c9.io create a new workspace with "blank" as an option.
+- Run ``` ./install_cloudnine.sh ``` on terminal in c9
+- Copy [this](https://gist.github.com/jiteshjha/714bd2e528e789c7057d4bacaa8a3364 to database.yml) (NOTE: Leave the password field as it is and mind the indentation), and copy schema.rb.example to schema.rb
+- ``` rvm use ruby-2.1.2 ```
+- ```mysql-ctl start```
+- ``` rake db:create ```
+- ``` rake db:setup ```
+- ``` rake db:migrate ```
+
+
