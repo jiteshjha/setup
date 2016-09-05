@@ -99,5 +99,11 @@ Add options iwlwifi 11n_disable=1 to file, save, and close. Then:
 - ``` rake db:create ```
 - ``` rake db:setup ```
 - ``` rake db:migrate ```
+- 
+
+## Anaconda
+- Refer [here](http://askubuntu.com/questions/505919/how-to-install-anaconda-on-ubuntu)
+- Enter this ```export PATH=~/anaconda2/bin:$PATH```
+- Check your version: ```conda --v```
 
 
